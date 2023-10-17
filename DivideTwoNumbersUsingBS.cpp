@@ -11,6 +11,7 @@ int solve(int dividend, int divisor){
         //perfect sol
         if(abs(mid*divisor) == abs(dividend)){
             ans = mid;
+            break;
         }
         //not perfect sol
         if(abs(mid*divisor) > abs(dividend)){
